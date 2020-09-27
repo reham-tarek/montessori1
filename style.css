@@ -1,0 +1,60 @@
+/* body {
+    font-family: 'Open Sans', sans-serif} */
+.container  { font-family: 'Open Sans', sans-serif;
+            background-color: bisque;;
+            }  
+.container .course {text-align: center;
+                   padding-top: 50px;
+                   color: #d82323;
+                   font-size: 30px;
+                  font-style: italic;}
+.two,.four,.six {text-align: center;padding-bottom: 50px;}  
+.four {float: right;padding-right: 200px;} 
+.six {float: right;padding-right: 120px;}
+.two {display: inline-block;
+     padding-left: 180px;
+     } 
+.montessori-title-line {width: 120px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 3px;
+    background: rgb(36 134 125);
+    content: '';
+    position: relative;}
+
+.two,.four,.six p {color :rgb(36 134 125);
+                  font-size: 20px;
+                }
+
+
+             
+
+  
+
+/* }
+.landing-page {
+              background-image: url("image1.jpg");
+              background-size: cover;position:relative ;
+              min-height: 100vh;}
+.overlay      {position: absolute;
+               width: 100%;
+               height: 100%;;
+               background-color: rgb(0, 0, 0,.6);
+            z-index: 1;}
+.headerarea {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    display: flex;
+}
+.headerarea .logo {width: 300px;
+                  padding: 15px;}
+
+.headerarea .links  {list-style: none;
+                     text-align: right;
+                    width: 100%;
+                    padding-right: 30px;
+                padding-left: 0;}             
+.headerarea .links   li {display: inline-block;
+                      } */

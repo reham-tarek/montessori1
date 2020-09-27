@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montessori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+   <h2 class="course"> MONTESSORI COURSES</h2>
+   <div class="montessori-title-line"></div>
+   <div class="two"  >
+       
+       <iframe width="400" height="315" src="https://www.youtube.com/embed/6ZNq6t8WalY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <p  id="two" onmouseover="big(this.id)" onmouseout="small(this.id)"> Montessori Course: 1-2 years</p>
+       
+   </div>
+   <div class="four">
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/XiRDtKV8uQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <p id="four"  onmouseover="big(this.id)" onmouseout="small(this.id)"> Montessori Course : 4-6 years</p>
+   </div>
+   <div class="six">
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/52Do6l_nNSw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <p id="six"  onmouseover="big(this.id)" onmouseout="small(this.id)"> Montessori Cource: 2-4 years</p>
+   </div>
+    </div>
+    <script>
+        
+        function big(id){ document.getElementById(id).style.color = "#d82323";
+        document.getElementById(id).style.fontSize = "30px";
+}
+function small(id){ document.getElementById(id).style.color = "rgb(36 134 125)";
+document.getElementById(id).style.fontSize = "20px"
+}
+</script>
+</body>
+</html>
+
